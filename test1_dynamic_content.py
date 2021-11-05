@@ -14,11 +14,6 @@ def read_content(driver, page):
     return dynamic_text_block.text
 
 
-def cleanup(driver):
-    # close the Selenium driver
-    driver.quit()
-
-
 # Tests that the dynamic text on the page contains a word at least "expected_length" characters in length
 def test1(dynamic_text_block, expected_length):
 
@@ -50,6 +45,11 @@ def find_longest_word(dynamic_text_block):
     print("Longest word on the page is %s and is %d characters long" % (longest_word_found, length_of_longest_word))
 
 
+def cleanup(driver):
+    # close the Selenium driver
+    driver.quit()
+
+    
 if __name__ == '__main__':
     # Initialize selenium driver
     s = Service(ChromeDriverManager().install())
