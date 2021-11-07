@@ -21,3 +21,7 @@ Tests can be executed using `pytest` either using command line or an IDE like Py
 https://docs.pytest.org/en/latest/how-to/usage.html
 
 https://www.jetbrains.com/help/pycharm/pytest.html
+
+> Note: If you are running tests using `pytest` command line, use the `-s` option to print stretch goal output
+>
+> E.g. `pytest dynamic_text_test.py -s` 
