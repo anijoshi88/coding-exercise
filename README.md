@@ -17,5 +17,7 @@ Give names to each avatar that can appear on the page and print out each avatars
 
 ## How to run tests
 Tests can be executed using `pytest` either using command line or an IDE like PyCharm
+
 https://docs.pytest.org/en/latest/how-to/usage.html
+
 https://www.jetbrains.com/help/pycharm/pytest.html
